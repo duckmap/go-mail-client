@@ -1,0 +1,13 @@
+# Единые переводы строк: в репозитории и в рабочей копии — LF.
+# Windows-скрипты, если появятся, останутся с CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Двоичные файлы
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+*.xlsx binary
+*.exe binary

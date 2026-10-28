@@ -1,0 +1,28 @@
+# Собранные бинарники
+/gomail
+/gomail.exe
+/ddd.exe
+*.exe
+*.test
+*.out
+
+# Покрытие и профили
+coverage.txt
+coverage.html
+*.prof
+
+# Локальные настройки и секреты
+/config.json
+*.local.json
+.env
+.env.*
+
+# Временные файлы демо-снимков
+demo/_*
+
+# Служебные каталоги агента и редакторов
+.workbuddy-ai/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
